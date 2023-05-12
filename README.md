@@ -8,7 +8,7 @@ Mon portfolio présente mes projets et mes compétences en tant que développeus
 - CSS
 - JavaScript
 
-Découvrez mon portfolio [ici](https://rylancodes.github.io/rylancodes-fr.io/).
+Découvrez mon portfolio [ici](https://rylancodes.github.io/rylancodes-fr/).
 
 ### Contact
 Si vous avez des questions ou des commentaires à propos de mon portfolio, ou si vous souhaitez collaborer avec moi, n'hésitez pas à me contacter à l'adresse courriel suivante : rylancodes@gmail.com.
