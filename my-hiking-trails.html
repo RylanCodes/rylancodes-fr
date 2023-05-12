@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/19aa2c559e.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Mes Randonnées</title>
+  </head>
+  <body>
+    <header>
+      <a href="./index.html" aria-label="Go to RylanCodes homepage"
+        ><img
+          src="images/Logos/RylanCodes-square-stacked-transparent-white.png"
+          alt="RylanCodes Logo"
+          width="100"
+          title="RylanCodes - Développeuse Web"
+      /></a>
+      <nav aria-label="primary navigation menu" class="navigation">
+        <input id="nav-toggle" type="checkbox" checked />
+        <ul class="links">
+          <li><a href="./index.html" aria-current="page">Accueil</a></li>
+          <li>
+            <a
+              href="/#projects-section"
+              aria-haspopup="true"
+              aria-expanded="false"
+              aria-controls="projects-dropdown-menu"
+            >
+              Projets
+            </a>
+          </li>
+          <li><a href="/#about-section">À Propos</a></li>
+          <li class="contact-me">
+            <a href="#contact-section" class="contact-btn">
+              <svg
+                class="contact-animation"
+                width="150px"
+                height="60px"
+                viewBox="0 0 200 80"
+                class="border"
+              >
+                <polyline
+                  points="199,1 199,79 1,79 1,1 199,1"
+                  class="bg-line"
+                />
+                <polyline
+                  points="199,1 199,79 1,79 1,1 199,1"
+                  class="hl-line"
+                />
+              </svg>
+              <span>Contactez-moi</span></a
+            >
+          </li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </label>
+      </nav>
+    </header>
+
+    <section
+      class="project-container light-font"
+      aria-label="My Hiking Trails' Project"
+    >
+      <picture>
+        <source srcset="images/MyHikingTrailsProject.png" />
+        <img
+          src="images/MyHikingTrailsProject.png"
+          alt="Projet Mes Randonnées"
+          loading="lazy"
+        />
+      </picture>
+      <div class="project-content">
+        <h2>Mes Randonnées</h2>
+        <p>
+          Pour mon premier projet utilisant JavaScript, j'ai eu la liberté de
+          choisir le thème, mais j'ai dû respecter des exigences spécifiques et
+          des corrections strictes de mon enseignant.
+        </p>
+        <ul class="stack">
+          <h5>Stack</h5>
+          <li class="stack-item">HTML</li>
+          <li class="stack-item">CSS</li>
+          <li class="stack-item">Javascript</li>
+        </ul>
+        <button class="btn fun">
+          <a href="https://github.com/RylanCodes/myhikingtrails" target="_blank"
+            >Voir le repo GitHub</a
+          >
+        </button>
+      </div>
+    </section>
+
+    <section
+      class="project-container light-font"
+      aria-label="section describing the project purpose and goal"
+    >
+      <div class="project-content">
+        <h2>But et objectif du projet</h2>
+        <p>
+          L'objectif principal du projet était d'apprendre les bases de
+          JavaScript 'vanilla' et de comprendre comment l'utiliser dans un
+          projet de codage.
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="project-container light-font"
+      aria-label="section describing the project challenges and thought process"
+    >
+      <div class="project-content">
+        <h2>Défis et processus de réflexion</h2>
+        <p>
+          J'ai dû apprendre à manipuler le DOM, utiliser des classes, des
+          fonctions, des méthodes et des constructeurs. Pendant les moments
+          d'apprentissage plus difficiles, je me rappelais la citation «
+          Apprendre à coder, c'est comme étudier chaque pièce d'une voiture
+          individuellement et apprendre par soi-même comment assembler toutes
+          les pièces ensemble ». J'ai regardé de nombreux tutoriels YouTube pour
+          m'aider à comprendre les concepts de codage.
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="project-container light-font"
+      aria-label="section describing the lessons learned during the project"
+    >
+      <div class="project-content">
+        <h2>Leçons retenues</h2>
+        <p>
+          En construisant un projet à partir de zéro, j'ai appris à me
+          concentrer sur une étape à la fois pour éviter d'être submergée. La
+          décomposition de la tâche et la prise en charge de la partie que je
+          pouvais faire en premier ont aidé. J'ai également appris à ne pas
+          hésiter à demander de l'aide à mes collègues et à poser des questions
+          à mon enseignant.
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="view-next-project"
+      aria-label="Section with button to view the next project"
+    >
+      <div class="next-project">
+        <a href="./scarlatta-fortuna.html">
+          <button class="shrink-border light-font" type="button">
+            Voir le projet suivant
+          </button>
+        </a>
+      </div>
+    </section>
+
+    <section
+      id="contact-section"
+      class="contact light-font"
+      aria-label="Contact Me Section"
+    >
+      <h3 class="section-heading">Travaillons ensemble</h3>
+      <div class="social-links centered">
+        <a href="https://www.linkedin.com/in/nancylr" target="_blank"
+          ><i
+            class="fa-brands fa-linkedin"
+            alt="Lien vers le profil LinkedIn de Nancy"
+          ></i
+        ></a>
+        <a href="https://github.com/RylanCodes" target="_blank"
+          ><i
+            class="fa-brands fa-github"
+            alt="Lien vers le profil GitHub de Nancy"
+          ></i
+        ></a>
+      </div>
+      <p class="centered">
+        Contactez-moi à l'adresse courriel suivante :
+        <span class="email" onclick="copyEmailAddress()"
+          >rylancodes@gmail.com</span
+        >.
+        <span class="tooltipMessage"></span>
+      </p>
+    </section>
+    <footer>
+      <p>&copy; 2023 RylanCodes</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

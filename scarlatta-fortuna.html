@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/19aa2c559e.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Scarlatta Fortuna</title>
+  </head>
+  <body>
+    <header>
+      <a href="./index.html" aria-label="Go to RylanCodes homepage"
+        ><img
+          src="images/Logos/RylanCodes-square-stacked-transparent-white.png"
+          alt="RylanCodes Logo"
+          width="100"
+          title="RylanCodes - Développeuse Web"
+      /></a>
+      <nav aria-label="primary navigation menu" class="navigation">
+        <input id="nav-toggle" type="checkbox" checked />
+        <ul class="links">
+          <li><a href="./index.html" aria-current="page">Accueil</a></li>
+          <li>
+            <a
+              href="/#projects-section"
+              aria-haspopup="true"
+              aria-expanded="false"
+              aria-controls="projects-dropdown-menu"
+            >
+              Projets
+            </a>
+          </li>
+          <li><a href="/#about-section">À Propos</a></li>
+          <li class="contact-me">
+            <a href="#contact-section" class="contact-btn">
+              <svg
+                class="contact-animation"
+                width="150px"
+                height="60px"
+                viewBox="0 0 200 80"
+                class="border"
+              >
+                <polyline
+                  points="199,1 199,79 1,79 1,1 199,1"
+                  class="bg-line"
+                />
+                <polyline
+                  points="199,1 199,79 1,79 1,1 199,1"
+                  class="hl-line"
+                />
+              </svg>
+              <span>Contactez-moi</span></a
+            >
+          </li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </label>
+      </nav>
+    </header>
+
+    <section
+      class="project-container light-font"
+      aria-label="section describing the Scarlatta Fortuna project"
+    >
+      <img
+        src="images/ScarlattaFortuna/WeAreSF.png"
+        alt="'Site Web Scarlatta Fortuna"
+        loading="lazy"
+      />
+      <div class="project-content">
+        <h2>Scarlatta Fortuna</h2>
+        <p>
+          Pour mon avant-dernier projet scolaire, j'ai collaboré avec deux
+          autres étudiants pour créer un site de commerce électronique de haute
+          couture. En tant que designer désignée de l'équipe, mes coéquipiers
+          m'ont confié la tâche du code frontend et de l'apparence générale du
+          site.
+        </p>
+        <ul class="stack">
+          <h5>Stack</h5>
+          <li class="stack-item">Vue.js</li>
+          <li class="stack-item">Javascript</li>
+          <li class="stack-item">HTML</li>
+          <li class="stack-item">CSS</li>
+          <li class="stack-item">MongoDB</li>
+        </ul>
+        <button class="btn fun">
+          <a
+            href="https://github.com/RylanCodes/scarlatta-fortuna"
+            target="_blank"
+            >Voir le repo GitHub</a
+          >
+        </button>
+      </div>
+    </section>
+
+    <section
+      class="project-container light-font"
+      aria-label="section describing the project purpose and goal"
+    >
+      <div class="project-content">
+        <h2>But et objectif du projet</h2>
+        <p>
+          Notre objectif principal était d'apprendre comment intégrer Vue.js
+          dans notre projet et de devenir plus compétent avec Git et Figma. Je
+          me suis également fixée comme défi de créer le site web le plus beau
+          de la classe.
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="project-container light-font"
+      aria-label="section describing the project challenges and thought process"
+    >
+      <div class="project-content">
+        <h2>Défis et processus de réflexion</h2>
+        <p>
+          Concevoir un beau projet sans avoir aucune expérience en design était
+          une nouvelle expérience pour nous tous. Nous avons également dû
+          apprendre à utiliser un framework en même temps, ce qui a ajouté du
+          stress et a entraîné quelques erreurs avec nos branches Git.
+          Cependant, je suis fière des efforts que nous avons mis dans la
+          recherche d'idées de design pour notre site et de la façon dont nous
+          avons communiqué tout au long du processus pour nous assurer d'être
+          sur la même longueur d'onde.
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="project-container light-font"
+      aria-label="section describing the lessons learned during the project"
+    >
+      <div class="project-content">
+        <h2>Leçons retenues</h2>
+        <p>
+          Ce projet nous a appris à ne pas nous prendre trop au sérieux et à
+          avoir des plans B, surtout lorsque nous commettons des erreurs. Nous
+          avons également appris l'importance de la planification dès le début,
+          de la réutilisation de notre code et de s'assurer qu'il est responsive
+          pour éviter de le réécrire plus tard.
+        </p>
+      </div>
+    </section>
+
+    <section
+      aria-label="Section with photo gallery of the Scarlatta Fortuna Project"
+    >
+      <div class="gallery-container">
+        <div class="photo-grid">
+          <div class="photo-card stacked">
+            <img
+              src="images/ScarlattaFortuna/FeaturedProducts.png"
+              alt="Page d'accueil et produits vedettes"
+              class="photo-card-img"
+              loading="lazy"
+            />
+          </div>
+          <div class="photo-card stacked">
+            <img
+              src="images/ScarlattaFortuna/Collections.png"
+              alt="Page Nos Collections"
+              class="photo-card-img"
+              loading="lazy"
+            />
+          </div>
+          <div class="photo-card stacked">
+            <img
+              src="images/ScarlattaFortuna/ShopWithFilters.png"
+              alt="Page des produits avec filtres"
+              class="photo-card-img"
+              loading="lazy"
+            />
+          </div>
+          <div class="photo-card stacked">
+            <img
+              src="images/ScarlattaFortuna/MyCart(empty).png"
+              alt="Page Mon Panier"
+              class="photo-card-img"
+              loading="lazy"
+            />
+          </div>
+          <div class="photo-card stacked">
+            <img
+              src="images/ScarlattaFortuna/ItemDetails.png"
+              alt="Page Détails Produit"
+              class="photo-card-img"
+              loading="lazy"
+            />
+          </div>
+          <div class="photo-card stacked">
+            <img
+              src="images/ScarlattaFortuna/Checkout.png"
+              alt="Page Paiement"
+              class="photo-card-img"
+              loading="lazy"
+            />
+          </div>
+          <div class="photo-card stacked">
+            <img
+              src="images/ScarlattaFortuna/FAQ.png"
+              alt="Page FAQ"
+              class="photo-card-img"
+              loading="lazy"
+            />
+          </div>
+          <div class="photo-card stacked">
+            <img
+              src="images/ScarlattaFortuna/Stores.png"
+              alt="Page Nos Magasins"
+              class="photo-card-img"
+              loading="lazy"
+            />
+          </div>
+          <div class="photo-card stacked">
+            <img
+              src="images/ScarlattaFortuna/Newsletter.png"
+              alt="Page Infolettre"
+              class="photo-card-img"
+              loading="lazy"
+            />
+          </div>
+          <div class="photo-card stacked">
+            <img
+              src="images/ScarlattaFortuna/MyAccount.png"
+              alt="Page Mon Compte"
+              class="photo-card-img"
+              loading="lazy"
+            />
+          </div>
+          <div class="photo-card stacked">
+            <img
+              src="images/ScarlattaFortuna/MyDetails.png"
+              alt="Page Détails Mon Compte"
+              class="photo-card-img"
+              loading="lazy"
+            />
+          </div>
+          <div class="photo-card stacked">
+            <img
+              src="images/ScarlattaFortuna/Careers.png"
+              alt="Page Carrières"
+              class="photo-card-img"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="view-next-project"
+      aria-label="Section with button to view the next project"
+    >
+      <div class="next-project">
+        <a href="./les-fungi-du-quebec.html">
+          <button class="shrink-border light-font" type="button">
+            Voir le projet suivant
+          </button>
+        </a>
+      </div>
+    </section>
+
+    <section
+      id="contact-section"
+      class="contact light-font"
+      aria-label="Contact Me Section"
+    >
+      <h3 class="section-heading">Travaillons ensemble</h3>
+      <div class="social-links centered">
+        <a href="https://www.linkedin.com/in/nancylr" target="_blank"
+          ><i
+            class="fa-brands fa-linkedin"
+            alt="Lien vers le profil LinkedIn de Nancy"
+          ></i
+        ></a>
+        <a href="https://github.com/RylanCodes" target="_blank"
+          ><i
+            class="fa-brands fa-github"
+            alt="Lien vers le profil GitHub de Nancy"
+          ></i
+        ></a>
+      </div>
+      <p class="centered">
+        Contactez-moi à l'adresse courriel suivante :
+        <span class="email" onclick="copyEmailAddress()"
+          >rylancodes@gmail.com</span
+        >.
+        <span class="tooltipMessage"></span>
+      </p>
+    </section>
+    <footer>
+      <p>&copy; 2023 RylanCodes</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

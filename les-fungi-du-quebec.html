@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/19aa2c559e.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Les Fungi du Québec</title>
+  </head>
+  <body>
+    <header>
+      <a href="./index.html" aria-label="Go to RylanCodes homepage"
+        ><img
+          src="images/Logos/RylanCodes-square-stacked-transparent-white.png"
+          alt="RylanCodes Logo"
+          width="100"
+          title="RylanCodes - Développeuse Web"
+      /></a>
+      <nav aria-label="primary navigation menu" class="navigation">
+        <input id="nav-toggle" type="checkbox" checked />
+        <ul class="links">
+          <li><a href="./index.html" aria-current="page">Accueil</a></li>
+          <li>
+            <a
+              href="/#projects-section"
+              aria-haspopup="true"
+              aria-expanded="false"
+              aria-controls="projects-dropdown-menu"
+            >
+              Projets
+            </a>
+          </li>
+          <li><a href="/#about-section">À Propos</a></li>
+          <li class="contact-me">
+            <a href="#contact-section" class="contact-btn">
+              <svg
+                class="contact-animation"
+                width="150px"
+                height="60px"
+                viewBox="0 0 200 80"
+                class="border"
+              >
+                <polyline
+                  points="199,1 199,79 1,79 1,1 199,1"
+                  class="bg-line"
+                />
+                <polyline
+                  points="199,1 199,79 1,79 1,1 199,1"
+                  class="hl-line"
+                />
+              </svg>
+              <span>Contactez-moi</span></a
+            >
+          </li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </label>
+      </nav>
+    </header>
+
+    <section
+      class="project-container light-font"
+      aria-label="section describing Les Fungi du Québec project"
+    >
+      <img
+        src="images/FungiduQuebec/ConnecterEduquerPartager.png"
+        alt="Projet Les Fungi du Québec"
+        loading="lazy"
+      />
+      <div class="project-content">
+        <h2>Les Fungi du Québec</h2>
+        <p>
+          Mon projet scolaire final consistait à créer un site web pour les
+          passionnés de champignons afin qu'ils puissent se connecter et
+          partager leur amour pour les fungi.
+        </p>
+        <ul class="stack">
+          <h5>Stack</h5>
+          <li class="stack-item">Vue.js</li>
+          <li class="stack-item">Javascript</li>
+          <li class="stack-item">HTML</li>
+          <li class="stack-item">CSS</li>
+          <li class="stack-item">MongoDB</li>
+        </ul>
+      </div>
+    </section>
+
+    <section
+      class="project-container light-font"
+      aria-label="section describing the project purpose and goal"
+    >
+      <div class="project-content">
+        <h2>But et objectif du projet</h2>
+        <p>
+          L'objectif était de consolider nos connaissances en construisant un
+          site web fonctionnel pour une entreprise potentielle. Nous avons visé
+          un code réutilisable et accessible, avons utilisé la suite Atlassian,
+          créé un wireframe sur Figma et écrit des tests pour assurer la
+          fonctionnalité. De plus, je me suis lancé le défi d'utiliser du CSS
+          pur au lieu d'un framework CSS.
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="project-container light-font"
+      aria-label="section describing the project challenges and thought process"
+    >
+      <div class="project-content">
+        <h2>Défis et processus de réflexion</h2>
+        <p>
+          Nous avons appris Quasar mais avons dû pivoter en raison de conflits
+          de tests unitaires. Travailler avec 4 camarades de classe avec qui
+          nous n'avions jamais travaillé auparavant nous a enseigné l'importance
+          de se concentrer sur les points forts et d'une communication efficace.
+          Nous avons rencontré des problèmes pour télécharger des images sur le
+          serveur et avons appris à utiliser AWS. Nous avons effectué des
+          recherches pour créer un bon wireframe, établi une bonne structure de
+          codage dès le départ et réutilisé des classes pour gagner du temps.
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="project-container light-font"
+      aria-label="section describing the lessons learned during the project"
+    >
+      <div class="project-content">
+        <h2>Leçons retenues</h2>
+        <p>
+          Ce projet m'a appris à choisir mes batailles et l'importance de la
+          collaboration et de la communication dans un environnement d'équipe.
+          J'ai acquis plus d'expérience en développement frontend et backend et
+          j'ai compris l'importance d'écrire du code réutilisable. Dans
+          l'ensemble, le projet a été une expérience d'apprentissage positive
+          qui m'a poussé à progresser en tant que développeuse.
+        </p>
+      </div>
+    </section>
+
+    <section
+      aria-label="Section with photo gallery of Les Fungi du Québec's Project"
+    >
+      <div class="gallery-container">
+        <div class="photo-grid">
+          <div class="photo-card stacked featured">
+            <img
+              src="images/FungiduQuebec/FRHomePage.png"
+              alt="Page d'accueil"
+              class="photo-card-img"
+              loading="lazy"
+            />
+          </div>
+          <div class="photo-card stacked">
+            <img
+              src="images/FungiduQuebec/Producteurs.png"
+              alt="Page des cultivateurs"
+              class="photo-card-img"
+              loading="lazy"
+            />
+          </div>
+          <div class="photo-card stacked">
+            <img
+              src="images/FungiduQuebec/Evenements.png"
+              alt="Page des événements"
+              class="photo-card-img"
+              loading="lazy"
+            />
+          </div>
+          <div class="photo-card stacked">
+            <img
+              src="images/FungiduQuebec/MonCompteS'inscrire.png"
+              alt="Page s'inscrire"
+              class="photo-card-img"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="view-next-project"
+      aria-label="Section with button to view the next project"
+    >
+      <div class="next-project">
+        <a href="./scarlatta-fortuna.html">
+          <button class="shrink-border light-font" type="button">
+            Voir le projet suivant
+          </button>
+        </a>
+      </div>
+    </section>
+
+    <section
+      id="contact-section"
+      class="contact light-font"
+      aria-label="Contact Me Section"
+    >
+      <h3 class="section-heading">Travaillons ensemble</h3>
+      <div class="social-links centered">
+        <a href="https://www.linkedin.com/in/nancylr" target="_blank"
+          ><i
+            class="fa-brands fa-linkedin"
+            alt="Lien vers le profil LinkedIn de Nancy"
+          ></i
+        ></a>
+        <a href="https://github.com/RylanCodes" target="_blank"
+          ><i
+            class="fa-brands fa-github"
+            alt="Lien vers le profil GitHub de Nancy"
+          ></i
+        ></a>
+      </div>
+      <p class="centered">
+        Contactez-moi à l'adresse courriel suivante :
+        <span class="email" onclick="copyEmailAddress()"
+          >rylancodes@gmail.com</span
+        >.
+        <span class="tooltipMessage"></span>
+      </p>
+    </section>
+    <footer>
+      <p>&copy; 2023 RylanCodes</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
