@@ -11,7 +11,7 @@ function copyEmailAddress() {
   navigator.clipboard
     .writeText(emailAddress)
     .then(() => {
-      tooltipMessage.textContent = "Email Copied!";
+      tooltipMessage.textContent = "Courriel copié!";
       setTimeout(() => {
         tooltipMessage.textContent = "";
       }, 3000);
