@@ -624,16 +624,16 @@ picture img {
   padding-bottom: 1rem;
 }
 
-.languages {
-  font-size: 2rem;
+.languages,
+.social-links {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-me {
   margin-inline: 2rem;
-}
-
-.social-links {
-  font-size: 2.5rem;
 }
 
 .contact p {
