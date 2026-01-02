@@ -1,14 +1,28 @@
 # RylanCodes
-## Bienvenue sur mon site web !
 
-Mon portfolio présente mes projets et mes compétences en tant que développeuse web. Le site est conçu pour être simple, convivial, accessible et adapté à tous les appareils.
+## Site Web
 
-### Technologies utilisées :
-- HTML
-- CSS
-- JavaScript
+Consultez mon site web [ici](https://rylancodes.github.io/rylancodes-fr/).
 
-Découvrez mon portfolio [ici](https://rylancodes.github.io/rylancodes-fr/).
+## À propos
 
-### Contact
-Si vous avez des questions ou des commentaires à propos de mon portfolio, ou si vous souhaitez collaborer avec moi, n'hésitez pas à me contacter à l'adresse courriel suivante : rylancodes@gmail.com.
+Je crée des sites WordPress personnalisés avec Bricks Builder et des thèmes premium, développe des interfaces responsives en HTML5, CSS3 et JavaScript, optimise pour le SEO et personnalise des boutiques Shopify—offrant des expériences web claires, accessibles et performantes qui génèrent de vrais résultats.
+
+Actuellement disponible pour des projets freelance avec des PME et particuliers cherchant des solutions web personnalisées.
+
+## Technologies utilisées
+
+* HTML5
+* CSS3
+* JavaScript
+* Sass
+* PHP
+* WordPress (Bricks Builder)
+* Git
+* Figma
+
+## Contact
+
+Intéressé à collaborer ou vous avez un projet en tête? Connectons-nous!
+
+📧 **rylancodes@gmail.com**
